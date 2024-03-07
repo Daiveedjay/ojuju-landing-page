@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Raleway:ital@0;1&display=swap");
+
+/*  */
+
+nav a {
+  font-family: "Raleway", sans-serif;
+}
+
+.open {
+  /* width: 0; */
+  transform: translate(-350px, 0);
+  /* display: none; */
+  /* transition: all ease-in 0.5s; */
+}
+.translate {
+  transform: translate(-175px, 0);
+  /* width: 1600px !important; */
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  /* width: 100%; */
+}
+
+.slides {
+}
+
+div.slides img {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  /* transform: translate(-50%); */
+  transition: transform 0.5s, box-shadow 0.5s;
+  cursor: pointer;
+  width: 300px;
+}
+
+h2 {
+  font-family: "Ojuju", sans-serif;
+  font-weight: 800;
+
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.leading__text {
+  font-family: "Ojuju", sans-serif;
+}
+
+p {
+  margin: 20px 0;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  line-height: 2;
+  color: #636060;
+}
+
+a.button {
+  display: inline-block;
+  background-color: #753a18;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 3px;
+  transition: all ease-in 0.15s;
+}
